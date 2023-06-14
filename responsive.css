@@ -1,0 +1,214 @@
+@media screen and (min-width: 760px) {
+    header {
+        width: 760px;
+        margin-top: 50px;
+    }
+
+    main {
+        width: 760px;
+    }
+
+    .head {
+        width: 689px;
+    }
+
+    footer {
+        width: 760px;
+    }
+
+    .title {
+        display: flex;
+        width: 760px;
+    }
+
+    .img1 {
+        background-image: url(./Assets/tablet-bitmap.svg);
+        width: 478px;
+        height: 425px;
+        margin-right: 0;
+        margin-top: -30px;
+    }
+
+    p {
+        width: 339px;
+    }
+
+    .btn {
+        width: 175px;
+    }
+
+    .pct {
+        display: flex;
+        margin-left: 24px;
+
+    }
+
+    .pct1 {
+        background-image: url(./Assets/tablet-bitmap.png);
+        width: 214px;
+        height: 320px;
+    }
+
+    .pct2 {
+        background-image: url(./Assets/tablet-pct2.svg);
+        width: 445px;
+        height: 320px;
+        margin-left: 30px;
+    }
+
+    .mech {
+        display: flex;
+        justify-content: space-between;
+        width: 689px;
+        margin-left: -30px;
+    }
+
+    .mech h3 {
+        text-align: start;
+        padding-top: 20px;
+    }
+
+    .mech p {
+        width: 398px;
+        text-align: start;
+        position: relative;
+        left: 7%;
+    }
+
+    .highly {
+        display: flex;
+    }
+
+    .maintxt {
+        margin: auto;
+        text-align: start;
+    }
+
+    .second {
+        margin-left: 69px;
+        text-align: start;
+    }
+
+    .maintxt h4 {
+        text-align: start;
+    }
+
+    .icon1 {
+        margin: 0;
+    }
+
+    .maintxt h6 {
+        text-align: start;
+    }
+
+    .footertxt {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    header {
+        width: 100vw;
+    }
+
+    .head {
+        width: 1110px;
+    }
+
+    main {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    footer {
+        width: 100vw;
+    }
+
+    .title {
+        width: 1100px;
+    }
+
+    span {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    p {
+        width: 445px;
+        font-size: 18px;
+    }
+
+    .img1 {
+        background-image: url(./Assets/desktop-bitmap.svg);
+        background-repeat: no-repeat;
+        width: 540px;
+        height: 480px;
+    }
+
+    .display {
+        display: flex;
+        width: 700px;
+    }
+
+    .mech {
+        display: grid;
+    }
+
+    .pct1 {
+        background-image: url(./Assets/desktop-pct1.png);
+        background-repeat: no-repeat;
+        width: 255px;
+        height: 480px;
+    }
+
+    .pct2 {
+        background-image: url(./Assets/desktop-pct2.svg);
+        background-repeat: no-repeat;
+        width: 445px;
+        height: 480px;
+    }
+
+    .mech {
+        padding-left: 140px;
+    }
+
+    .mech h3 {
+        padding-left: 20px;
+    }
+
+    .mech p {
+        width: 255px;
+        padding-left: 0px;
+    }
+
+    .desktop2 {
+        display: flex;
+    }
+
+    .second {
+        padding-left: 300px;
+        margin: auto;
+    }
+
+    .maintxt h6 {
+        width: 255px;
+    }
+
+    .bottom {
+        padding-top: 40px;
+    }
+
+    .compatible {
+        padding-top: 16px;
+    }
+
+    .capacity {
+        padding-top: 20px;
+    }
+
+    .rgb {
+        padding-top: 5px;
+    }
+}
